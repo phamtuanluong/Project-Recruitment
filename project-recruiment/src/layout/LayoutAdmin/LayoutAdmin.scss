@@ -1,0 +1,56 @@
+.layout-admin {
+    min-height: 100vh;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__logo{
+    height: 64px;
+    width: 200.36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #EDF2F9;
+    transition: all 0.2s;
+    background: #001529;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.header__nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    height: 64px;
+}
+
+.header__collapse {
+    margin: 0px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content{
+    margin: 24px 20px;
+    padding: 24px 30px;
+    min-height: 280;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.header__logo--collapsed{
+    width: 80.36px;
+    text-align: center;
+}
+
+.sider{
+    padding: 6px;
+}

@@ -1,0 +1,709 @@
+{
+  "city": [
+    {
+      "key": 1,
+      "value": "Hà Nội",
+      "id": "8a90"
+    },
+    {
+      "key": 2,
+      "value": "Hồ Chí Minh",
+      "id": "407a"
+    },
+    {
+      "key": 3,
+      "value": "Đà Nẵng",
+      "id": "4523"
+    },
+    {
+      "key": 4,
+      "value": "Hải Phòng",
+      "id": "7ae8"
+    },
+    {
+      "key": 5,
+      "value": "Hải Dương",
+      "id": "0062"
+    }
+  ],
+  "tags": [
+    {
+      "key": 1,
+      "value": "HTML",
+      "id": "2710"
+    },
+    {
+      "key": 2,
+      "value": "CSS",
+      "id": "fc3b"
+    },
+    {
+      "key": 3,
+      "value": "JavaScript",
+      "id": "f4a3"
+    },
+    {
+      "key": 4,
+      "value": "ReactJS",
+      "id": "53d8"
+    },
+    {
+      "key": 5,
+      "value": "NodeJS",
+      "id": "58b2"
+    },
+    {
+      "key": 6,
+      "value": "TypeScript",
+      "id": "37fa"
+    },
+    {
+      "key": 7,
+      "value": "PHP",
+      "id": "36c6"
+    },
+    {
+      "key": 8,
+      "value": "Java",
+      "id": "4aa6"
+    },
+    {
+      "key": 9,
+      "value": "SQL",
+      "id": "b41a"
+    },
+    {
+      "key": 10,
+      "value": "Python",
+      "id": "c1a5"
+    },
+    {
+      "key": 11,
+      "value": "MongoDB",
+      "id": "eb58"
+    },
+    {
+      "key": 12,
+      "value": "Vue.JS",
+      "id": "cad2"
+    },
+    {
+      "key": 13,
+      "value": "Tailwind CSS",
+      "id": "fe01"
+    },
+    {
+      "key": 14,
+      "value": "Bootstrap",
+      "id": "a084"
+    },
+    {
+      "key": 15,
+      "value": "Ant Design",
+      "id": "5b37"
+    },
+    {
+      "key": 16,
+      "value": "Django",
+      "id": "41b7"
+    },
+    {
+      "key": 17,
+      "value": "C++",
+      "id": "ebcf"
+    },
+    {
+      "key": 18,
+      "value": "Flask",
+      "id": "5624"
+    },
+    {
+      "key": 19,
+      "value": "Express.js",
+      "id": "6cf6"
+    },
+    {
+      "key": 20,
+      "value": "Docker",
+      "id": "6908"
+    },
+    {
+      "key": 21,
+      "value": "Database",
+      "id": "3e52"
+    },
+    {
+      "key": 22,
+      "value": "JSON",
+      "id": "4ad6"
+    },
+    {
+      "key": 23,
+      "value": "Spring Boot",
+      "id": "9630"
+    },
+    {
+      "key": 24,
+      "value": "NextJS",
+      "id": "35e1"
+    }
+  ],
+  "jobs": [
+    {
+      "idCompany": 1,
+      "name": "Frontend Dev (ReactJS/NextJS)",
+      "tags": [
+        "ReactJS",
+        "JSON Server",
+        ".NET",
+        "SQL",
+        "NextJS"
+      ],
+      "salary": "2500",
+      "description": "Top 3 Reasons To Join Us\nCreative environment\nOpportunities to grow\nEngaging projects\nJob Description\nWe are looking for a UI/UX Designer to create user-friendly and aesthetically pleasing designs for our web and mobile applications.\nYour Skills and Experience\n- Proficient in Figma, Sketch, or Adobe XD.\n- Strong understanding of UI/UX principles and best practices.\n- Experience conducting user research and usability testing.\n- Ability to work collaboratively with developers and product managers.",
+      "status": true,
+      "createAt": "03-05-2023 14:20:00",
+      "id": "1",
+      "city": [
+        "Hải Dương",
+        "Hà Nội"
+      ],
+      "updateAt": "17-02-2025 21:28:43"
+    },
+    {
+      "idCompany": 2,
+      "name": "Frontend Tech Lead (X2)",
+      "tags": [
+        "HTML",
+        "CSS",
+        "ReactJS"
+      ],
+      "salary": "1500",
+      "description": "Top 3 Reasons To Join Us\nAttractive salary package\nHybrid working mode\nSigning bonus for IT related posts\nJob Description\nWe are looking for a Frontend Tech Lead who will bring the best-performed user experience to our customers’ digital transformations in fields such as eCommerce, online presence, and conversion. As a Frontend Tech Lead, you will play a key role in leading a team of developers to create highly engaging, interactive, and innovative solutions.\n\nYour Skills and Experience\n- Expert knowledge of modern JavaScript, HTML, and CSS.\n- Hands-on experience with popular ReactJS or Vue.js frameworks.\n- Ability to design and implement responsive UI/UX components.\n- Strong communication skills and team leadership.\n- Familiarity with backend integration and API design.",
+      "status": true,
+      "createAt": "30-04-2023 14:30:00",
+      "id": "2",
+      "city": [
+        "Hà Nội"
+      ],
+      "updateAt": "01-05-2023 09:45:00"
+    },
+    {
+      "idCompany": 3,
+      "name": "Backend Developer (Java)",
+      "tags": [
+        "Java",
+        "Spring",
+        "Hibernate",
+        "NodeJS"
+      ],
+      "salary": "1200",
+      "description": "Top 3 Reasons To Join Us\nCompetitive salary and benefits\nProfessional development opportunities\nCollaborative work environment\nJob Description\nWe are looking for a Backend Developer to join our team in Ho Chi Minh City. The ideal candidate will have experience in designing and building scalable server-side applications.\n\nYour Skills and Experience\n- Strong experience with Java, Spring Framework, and Hibernate.\n- Knowledge of RESTful APIs and database design.\n- Familiarity with Agile methodologies.\n- Problem-solving skills and attention to detail.\n- Ability to work in a team-oriented environment.",
+      "status": true,
+      "createAt": "01-05-2023 10:00:00",
+      "id": "3",
+      "city": [
+        "Hồ Chí Minh"
+      ],
+      "updateAt": "02-05-2023 08:30:00"
+    },
+    {
+      "idCompany": 4,
+      "name": "Data Scientist",
+      "tags": [
+        "Python",
+        "SQL",
+        "Data Analysis"
+      ],
+      "salary": "2000",
+      "description": "Top 3 Reasons To Join Us\nCutting-edge projects\nCollaborative team\nFlexible working hours\nJob Description\nWe are seeking a Data Scientist to help analyze and interpret complex data to provide valuable insights for our business operations.\n\nYour Skills and Experience\n- Proficient in Python and machine learning libraries.\n- Strong understanding of data analysis and statistical techniques.\n- Experience with big data tools such as Hadoop or Spark is a plus.\n- Strong problem-solving skills and ability to communicate complex concepts.",
+      "status": true,
+      "createAt": "02-05-2023 11:00:00",
+      "id": "4",
+      "city": [
+        "Hải Phòng"
+      ],
+      "updateAt": "03-05-2023 09:15:00"
+    },
+    {
+      "idCompany": 5,
+      "name": "UI/UX Designer",
+      "tags": [
+        "UI Design",
+        "Java",
+        "Figma",
+        "Spring",
+        "Django"
+      ],
+      "salary": "1800",
+      "description": "Top 3 Reasons To Join Us\nCreative environment\nOpportunities to grow\nEngaging projects\nJob Description\nWe are looking for a UI/UX Designer to create user-friendly and aesthetically pleasing designs for our web and mobile applications.\n\nYour Skills and Experience\n- Proficient in Figma, Sketch, or Adobe XD.\n- Strong understanding of UI/UX principles and best practices.\n- Experience conducting user research and usability testing.\n- Ability to work collaboratively with developers and product managers.",
+      "status": true,
+      "createAt": "03-05-2023 14:20:00",
+      "id": "5",
+      "city": [
+        "Đà Nẵng"
+      ],
+      "updateAt": "04-05-2023 10:00:00"
+    },
+    {
+      "idCompany": 6,
+      "name": "DevOps Designer",
+      "tags": [
+        "UI Design",
+        "Java",
+        "Django",
+        "PHP"
+      ],
+      "salary": "2500",
+      "description": "Top 3 Reasons To Join Us\nCreative environment\nOpportunities to grow\nEngaging projects\nJob Description\nWe are looking for a UI/UX Designer to create user-friendly and aesthetically pleasing designs for our web and mobile applications.\n\nYour Skills and Experience\n- Proficient in Figma, Sketch, or Adobe XD.\n- Strong understanding of UI/UX principles and best practices.\n- Experience conducting user research and usability testing.\n- Ability to work collaboratively with developers and product managers.",
+      "status": true,
+      "createAt": "03-05-2023 14:20:00",
+      "id": "5",
+      "city": [
+        "Hải Dương"
+      ],
+      "updateAt": "04-05-2023 10:00:00"
+    },
+    {
+      "idCompany": 1,
+      "name": "Data Analyst",
+      "tags": [
+        "Python",
+        "SQL",
+        "Data Analysis",
+        "C++"
+      ],
+      "salary": "2600",
+      "description": "Top 3 Reasons To Join Us\nCutting-edge projects\nCollaborative team\nFlexible working hours\nJob Description\nWe are seeking a Data Scientist to help analyze and interpret complex data to provide valuable insights for our business operations.\n\nYour Skills and Experience\n- Proficient in Python and machine learning libraries.\n- Strong understanding of data analysis and statistical techniques.\n- Experience with big data tools such as Hadoop or Spark is a plus.\n- Strong problem-solving skills and ability to communicate complex concepts.",
+      "status": false,
+      "createAt": "02-05-2023 12:00:00",
+      "id": "7",
+      "city": [
+        "Hải Phòng"
+      ],
+      "updateAt": "04-05-2023 09:15:00"
+    },
+    {
+      "idCompany": 4,
+      "name": "Machine Learning",
+      "tags": [
+        "Python",
+        "MySQL",
+        "Data Analysis",
+        "Oracle"
+      ],
+      "salary": "2000",
+      "description": "Top 3 Reasons To Join Us\nCutting-edge projects\nCollaborative team\nFlexible working hours\nJob Description\nWe are seeking a Data Scientist to help analyze and interpret complex data to provide valuable insights for our business operations.\n\nYour Skills and Experience\n- Proficient in Python and machine learning libraries.\n- Strong understanding of data analysis and statistical techniques.\n- Experience with big data tools such as Hadoop or Spark is a plus.\n- Strong problem-solving skills and ability to communicate complex concepts.",
+      "status": true,
+      "createAt": "02-05-2023 11:00:00",
+      "id": "4",
+      "city": [
+        "Hải Phòng"
+      ],
+      "updateAt": "03-05-2023 09:15:00"
+    },
+    {
+      "id": "9a2f",
+      "name": "Backend Java",
+      "tags": [
+        "Spring",
+        "Java",
+        "My SQL",
+        "RESTful API"
+      ],
+      "salary": "1900",
+      "city": [
+        "Hà Nội",
+        "Hồ Chí Minh"
+      ],
+      "description": "Chúng tôi đang tìm kiếm một Backend Java Developer có tư duy logic tốt, hiểu biết sâu về hệ thống backend và có kinh nghiệm làm việc với các công nghệ hiện đại để tham gia vào đội ngũ phát triển phần mềm của công ty.\n\nVị trí này sẽ chịu trách nhiệm thiết kế, phát triển và duy trì hệ thống backend cho các ứng dụng web, API, microservices và đảm bảo hệ thống có hiệu suất cao, bảo mật tốt và khả năng mở rộng linh hoạt.\n\nBạn sẽ làm việc cùng với đội ngũ frontend, DevOps, QA và các bộ phận khác để phát triển các sản phẩm chất lượng, phục vụ hàng triệu người dùng.",
+      "status": true,
+      "idCompany": "1",
+      "createAt": "17-02-2025 22:09:19"
+    },
+    {
+      "id": "63b4",
+      "name": "Backend NodeJS",
+      "tags": [
+        "NodeJS",
+        "Oracle",
+        "My SQL",
+        "RESTful API",
+        "Java"
+      ],
+      "salary": "2500",
+      "city": [
+        "Hải Phòng",
+        "Hà Nội"
+      ],
+      "description": "Chúng tôi đang tìm kiếm một Backend Developer sử dụng Node.js để tham gia vào đội ngũ phát triển backend cho hệ thống web/app. Bạn sẽ chịu trách nhiệm xây dựng API, tối ưu cơ sở dữ liệu, xử lý logic nghiệp vụ và đảm bảo hiệu suất cao, bảo mật tốt cho hệ thống.",
+      "status": true,
+      "idCompany": "1",
+      "createAt": "17-02-2025 22:12:56"
+    }
+  ],
+  "cv": [
+    {
+      "id": "1",
+      "idCompany": 1,
+      "name": "Le Van A",
+      "phone": "0123456789",
+      "email": "levana@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Le Van A. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "29-04-2023 10:32:41",
+      "city": "Hà Nội"
+    },
+    {
+      "id": "2",
+      "idCompany": 1,
+      "name": "Le Van E",
+      "phone": "0987654321",
+      "email": "levane@gmail.com",
+      "statusRead": false,
+      "description": "Xin chào, tôi là Le Van E. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "29-04-2023 10:32:41",
+      "city": "Hà Nội"
+    },
+    {
+      "id": "4",
+      "idCompany": 2,
+      "name": "Nguyen Van B",
+      "phone": "0167890123",
+      "email": "nguyenb@gmail.com",
+      "statusRead": false,
+      "description": "Xin chào, tôi là Nguyen Van B. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "29-04-2023 11:15:41",
+      "city": "Đà Nẵng"
+    },
+    {
+      "id": "5",
+      "idCompany": 2,
+      "name": "Tran Van C",
+      "phone": "0198765432",
+      "email": "tranc@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Tran Van C. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "30-04-2023 09:10:50",
+      "city": "Hồ Chí Minh"
+    },
+    {
+      "id": "6",
+      "idCompany": 3,
+      "name": "Pham Van D",
+      "phone": "0123987654",
+      "email": "phamd@gmail.com",
+      "statusRead": false,
+      "description": "Xin chào, tôi là Pham Van D. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "01-05-2023 08:30:22",
+      "city": "Hải Phòng"
+    },
+    {
+      "id": "7",
+      "idCompany": 3,
+      "name": "Hoang Van G",
+      "phone": "0112233445",
+      "email": "hoangg@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Hoang Van G. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "02-05-2023 13:20:14",
+      "city": "Hà Nội"
+    },
+    {
+      "id": "8",
+      "idCompany": 4,
+      "name": "Vu Van H",
+      "phone": "0155667788",
+      "email": "vuvanh@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Vu Van H. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "03-05-2023 15:45:33",
+      "city": "Đà Nẵng"
+    },
+    {
+      "id": "9",
+      "idCompany": 4,
+      "name": "Ngo Van I",
+      "phone": "0133445566",
+      "email": "ngoi@gmail.com",
+      "statusRead": false,
+      "description": "Xin chào, tôi là Ngo Van I. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "04-05-2023 10:50:55",
+      "city": "Hồ Chí Minh"
+    },
+    {
+      "id": "10",
+      "idCompany": 5,
+      "name": "Dang Van K",
+      "phone": "0122334455",
+      "email": "dangvank@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Dang Van K. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "05-05-2023 12:05:15",
+      "city": "Hải Phòng"
+    },
+    {
+      "id": "11",
+      "idCompany": 5,
+      "name": "Le Van L",
+      "phone": "0199445577",
+      "email": "levanl@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Le Van L. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "06-05-2023 14:20:33",
+      "city": "Hà Nội"
+    }
+  ],
+  "company": [
+    {
+      "id": "1",
+      "companyName": "TechVision",
+      "phone": "0912345678",
+      "email": "contact@techvision.com",
+      "Password": "tech123",
+      "token": "pYh7gBk0NATjK1ZH7wX2",
+      "quantityPeople": 50,
+      "description": "TechVision là công ty chuyên cung cấp các giải pháp phần mềm và công nghệ AI tiên tiến, giúp doanh nghiệp chuyển đổi số và nâng cao hiệu suất hoạt động. Chúng tôi tập trung vào việc nghiên cứu và phát triển các công nghệ trí tuệ nhân tạo, dữ liệu lớn và điện toán đám mây nhằm mang đến những sản phẩm chất lượng cao, đáp ứng nhu cầu của khách hàng trong nhiều lĩnh vực như tài chính, y tế, giáo dục và thương mại điện tử.",
+      "detail": "Tại TechVision, chúng tôi mang đến môi trường làm việc hiện đại, sáng tạo với cơ hội phát triển nghề nghiệp rộng mở. Nhân viên sẽ có cơ hội tham gia vào các dự án lớn, làm việc với các chuyên gia hàng đầu trong ngành và được tiếp cận với công nghệ mới nhất. Chúng tôi cam kết mang đến mức lương cạnh tranh, thưởng theo dự án, bảo hiểm sức khỏe toàn diện cùng nhiều chính sách đãi ngộ hấp dẫn.",
+      "address": "456 Nguyễn Huệ",
+      "workingTime": "T2 - T6",
+      "website": "https://techvision.com",
+      "ourKeySkills": [
+        "Machine Learning, Deep Learning, AI",
+        "Python, Java, C++",
+        "Cloud Computing: AWS, Google Cloud"
+      ]
+    },
+    {
+      "id": "2",
+      "companyName": "CodeMaster",
+      "phone": "0987654321",
+      "email": "info@codemaster.com",
+      "Password": "code456",
+      "token": "qWp6fKl9XTmY8ZNJ0pH7",
+      "quantityPeople": 80,
+      "description": "CodeMaster là công ty phần mềm hàng đầu chuyên về phát triển ứng dụng web và di động. Chúng tôi tập trung vào việc thiết kế và triển khai các sản phẩm công nghệ sáng tạo, giúp doanh nghiệp tối ưu hóa quy trình làm việc, nâng cao hiệu suất và cải thiện trải nghiệm người dùng.",
+      "detail": "Chúng tôi tin rằng con người là tài sản quý giá nhất của doanh nghiệp. Vì vậy, tại CodeMaster, nhân viên sẽ được làm việc trong môi trường chuyên nghiệp, sáng tạo, có cơ hội phát triển bản thân thông qua các khóa đào tạo chuyên môn và chương trình mentoring từ các chuyên gia hàng đầu.",
+      "address": "789 Lê Lợi",
+      "workingTime": "T2 - T7",
+      "website": "https://codemaster.com",
+      "ourKeySkills": [
+        "Full-stack Development: React.js, Vue.js",
+        "Mobile Development: Flutter, Swift, Kotlin",
+        "Agile & Scrum Methodologies"
+      ]
+    },
+    {
+      "id": "3",
+      "companyName": "CyberShield",
+      "phone": "0909123456",
+      "email": "support@cybershield.com",
+      "Password": "cyber789",
+      "token": "tYp9JX7bK6N0Wfz8H1m",
+      "quantityPeople": 60,
+      "description": "CyberShield là công ty chuyên cung cấp các giải pháp an ninh mạng và bảo mật dữ liệu hàng đầu, giúp doanh nghiệp bảo vệ thông tin quan trọng trước các mối đe dọa từ hacker và các cuộc tấn công mạng.",
+      "detail": "Làm việc tại CyberShield, bạn sẽ có cơ hội tiếp cận với những công nghệ bảo mật hiện đại nhất và làm việc với những chuyên gia hàng đầu trong ngành. Chúng tôi cung cấp môi trường làm việc chuyên nghiệp, thúc đẩy sự sáng tạo và phát triển kỹ năng chuyên môn.",
+      "address": "321 Trần Hưng Đạo",
+      "workingTime": "T2 - CN",
+      "website": "https://cybershield.com",
+      "ourKeySkills": [
+        "Cyber Security: Ethical Hacking, IDS/IPS",
+        "Cloud Security: AWS Security Hub, Azure Security Center",
+        "Threat Intelligence & Incident Response"
+      ]
+    },
+    {
+      "id": "4",
+      "companyName": "CloudSphere",
+      "phone": "0933221144",
+      "email": "contact@cloudsphere.com",
+      "Password": "cloud321",
+      "token": "mWf8bK7pY9X0ZJ6H1Tq",
+      "quantityPeople": 40,
+      "description": "CloudSphere là công ty cung cấp giải pháp điện toán đám mây giúp doanh nghiệp tiết kiệm chi phí và tối ưu hóa hạ tầng IT. Chúng tôi tập trung vào việc triển khai các hệ thống cloud computing hiệu quả, bảo mật và linh hoạt.",
+      "detail": "CloudSphere mang đến cho nhân viên cơ hội làm việc với các nền tảng cloud hàng đầu như AWS, Azure và Google Cloud. Chúng tôi có môi trường làm việc cởi mở, nơi mọi ý tưởng sáng tạo đều được trân trọng.",
+      "address": "567 Hai Bà Trưng",
+      "workingTime": "T2 - T7",
+      "website": "https://cloudsphere.com",
+      "ourKeySkills": [
+        "Cloud Computing: AWS, Azure, Google Cloud",
+        "Kubernetes, Docker",
+        "Serverless Architecture"
+      ]
+    },
+    {
+      "id": "5",
+      "companyName": "AI Innovators",
+      "phone": "0977112233",
+      "email": "info@aiinnovators.com",
+      "Password": "ai654",
+      "token": "ZJ9X7bK6pY8H0TqWf1m",
+      "quantityPeople": 70,
+      "description": "AI Innovators là startup công nghệ chuyên nghiên cứu và ứng dụng trí tuệ nhân tạo vào các lĩnh vực như y tế, tài chính và thương mại điện tử. Chúng tôi cung cấp các giải pháp AI giúp tối ưu hóa quy trình làm việc và nâng cao trải nghiệm khách hàng.",
+      "detail": "AI Innovators tạo điều kiện cho nhân viên phát triển chuyên môn thông qua các dự án thực tế và khóa đào tạo AI. Chúng tôi có chính sách lương thưởng hấp dẫn, cùng môi trường làm việc sáng tạo.",
+      "address": "678 Phạm Ngũ Lão",
+      "workingTime": "T2 - T6",
+      "website": "https://aiinnovators.com",
+      "ourKeySkills": [
+        "Artificial Intelligence, Machine Learning",
+        "Data Science: Python, R, TensorFlow",
+        "Computer Vision, NLP"
+      ]
+    },
+    {
+      "id": "6",
+      "companyName": "DevOps Hub",
+      "phone": "0955667788",
+      "email": "contact@devopshub.com",
+      "Password": "devops852",
+      "token": "hG2F3e4D5C6b7A8Z9Y0x",
+      "quantityPeople": 55,
+      "description": "DevOps Hub là công ty hàng đầu trong việc cung cấp giải pháp DevOps giúp doanh nghiệp tăng cường khả năng tự động hóa và tối ưu hóa quá trình phát triển phần mềm.",
+      "detail": "Chúng tôi tạo ra môi trường làm việc linh hoạt, thúc đẩy sáng tạo và áp dụng các công nghệ DevOps tiên tiến như CI/CD, Kubernetes, Docker.",
+      "address": "789 Đống Đa",
+      "workingTime": "T2 - CN",
+      "website": "https://devopshub.com",
+      "ourKeySkills": [
+        "DevOps: CI/CD, Jenkins, GitOps",
+        "Containerization: Docker, Kubernetes",
+        "Infrastructure as Code: Terraform, Ansible"
+      ]
+    },
+    {
+      "id": "7",
+      "companyName": "DataForge",
+      "phone": "0944332211",
+      "email": "support@dataforge.com",
+      "Password": "data999",
+      "token": "o1P2q3R4S5t6U7V8W9X0z",
+      "quantityPeople": 90,
+      "description": "DataForge chuyên cung cấp các giải pháp xử lý dữ liệu lớn (Big Data), hỗ trợ doanh nghiệp khai thác tối đa giá trị dữ liệu.",
+      "detail": "Chúng tôi mang đến môi trường làm việc chuyên nghiệp, nơi nhân viên có thể học hỏi và phát triển trong lĩnh vực Big Data và AI.",
+      "address": "234 Bạch Đằng",
+      "workingTime": "T2 - T7",
+      "website": "https://dataforge.com",
+      "ourKeySkills": [
+        "Big Data: Hadoop, Spark, Kafka",
+        "Data Engineering: ETL, Data Warehousing",
+        "Database: MySQL, PostgreSQL, MongoDB"
+      ]
+    },
+    {
+      "id": "8",
+      "companyName": "QuantumSoft",
+      "phone": "0922113344",
+      "email": "contact@quantumsoft.com",
+      "Password": "quantum111",
+      "token": "y1X2w3V4u5T6s7r8Q9p0M",
+      "quantityPeople": 65,
+      "description": "QuantumSoft là công ty chuyên về phát triển phần mềm AI và ứng dụng blockchain, giúp doanh nghiệp tận dụng công nghệ hiện đại.",
+      "detail": "Chúng tôi mang đến cơ hội làm việc với những công nghệ tiên tiến nhất trong lĩnh vực AI và blockchain, với mức lương cạnh tranh.",
+      "address": "890 Tôn Đức Thắng",
+      "workingTime": "T2 - CN",
+      "website": "https://quantumsoft.com",
+      "ourKeySkills": [
+        "Blockchain: Ethereum, Solidity",
+        "AI & ML: TensorFlow, PyTorch",
+        "Smart Contracts, DeFi"
+      ]
+    },
+    {
+      "id": "9",
+      "companyName": "NextGen Tech",
+      "phone": "0911223344",
+      "email": "info@nextgentech.com",
+      "Password": "nextgen222",
+      "token": "m1N2o3P4Q5r6S7t8U9V0y",
+      "quantityPeople": 85,
+      "description": "NextGen Tech chuyên phát triển các nền tảng SaaS hỗ trợ doanh nghiệp trong việc quản lý và tối ưu quy trình làm việc.",
+      "detail": "Chúng tôi có môi trường startup năng động, với các chính sách đãi ngộ hấp dẫn dành cho nhân viên.",
+      "address": "123 Hoàng Diệu",
+      "workingTime": "T2 - T6",
+      "website": "https://nextgentech.com",
+      "ourKeySkills": [
+        "SaaS Development",
+        "Web Development: React, Node.js",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "id": "10",
+      "companyName": "InnoSoft",
+      "phone": "0966554433",
+      "email": "support@innosoft.com",
+      "Password": "inno333",
+      "token": "g1F2e3D4C5b6A7Z8Y9X0w",
+      "quantityPeople": 75,
+      "description": "InnoSoft là công ty chuyên cung cấp phần mềm quản lý doanh nghiệp giúp tối ưu hóa quy trình và tăng hiệu suất.",
+      "detail": "Chúng tôi mang đến môi trường làm việc chuyên nghiệp và cơ hội phát triển sự nghiệp trong ngành phần mềm quản lý.",
+      "address": "678 Lý Thường Kiệt",
+      "workingTime": "T2 - CN",
+      "website": "https://innosoft.com",
+      "ourKeySkills": [
+        "ERP, CRM Solutions",
+        "Full-stack Development",
+        "Cloud-based Applications"
+      ]
+    },
+    {
+      "id": "23cd",
+      "email": "abc",
+      "password": "abc",
+      "phone": "abc",
+      "nameCompany": "abc",
+      "token": "cQyCxQGyXyDgqsc7uBCW"
+    }
+  ],
+  "trending": [
+    {
+      "key": 1,
+      "value": "ReactJS",
+      "id": "12c5"
+    },
+    {
+      "key": 2,
+      "value": "Java",
+      "id": "ad43"
+    },
+    {
+      "key": 3,
+      "value": ".NET",
+      "id": "eaa7"
+    },
+    {
+      "key": 4,
+      "value": "PHP",
+      "id": "6342"
+    },
+    {
+      "key": 5,
+      "value": "Business Analyst",
+      "id": "5fc5"
+    },
+    {
+      "key": 6,
+      "value": "NodeJS",
+      "id": "7ad9"
+    },
+    {
+      "key": 7,
+      "value": "Manager",
+      "id": "a968"
+    },
+    {
+      "key": 8,
+      "value": "Machine Learning",
+      "id": "5d66"
+    }
+  ]
+}

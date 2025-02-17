@@ -1,0 +1,46 @@
+.layout-default{
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 40px;
+        background: #201214;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    &__logo{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__menu{
+        ul{
+            display: flex;
+            color: #fff;
+            li{
+                margin-left: 50px;
+            }
+        }
+    }
+    &__account{
+        a{
+            margin-left: 20px;
+        }
+    }
+    &__main{
+        padding: 30px 80px;
+        flex: 1;
+    }
+    &__footer{
+        padding: 10px 40px;
+        background: black;
+        color: #fff;
+        text-align: center;
+    }
+}
+.layout-default{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
