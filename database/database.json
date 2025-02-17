@@ -656,12 +656,23 @@
       ]
     },
     {
-      "id": "23cd",
-      "email": "abc",
-      "password": "abc",
-      "phone": "abc",
-      "nameCompany": "abc",
-      "token": "cQyCxQGyXyDgqsc7uBCW"
+      "id": "11",
+      "companyName": "Dev Tech",
+      "phone": "0966554433",
+      "email": "support@innosoft.com",
+      "Password": "inno333",
+      "token": "cQyCxQGyXyDgqsc7uBCW",
+      "quantityPeople": 75,
+      "description": "InnoSoft là công ty chuyên cung cấp phần mềm quản lý doanh nghiệp giúp tối ưu hóa quy trình và tăng hiệu suất.",
+      "detail": "Chúng tôi mang đến môi trường làm việc chuyên nghiệp và cơ hội phát triển sự nghiệp trong ngành phần mềm quản lý.",
+      "address": "678 Lý Thường Kiệt",
+      "workingTime": "T2 - CN",
+      "website": "https://innosoft.com",
+      "ourKeySkills": [
+        "ERP, CRM Solutions",
+        "Full-stack Development",
+        "Cloud-based Applications"
+      ]
     }
   ],
   "trending": [

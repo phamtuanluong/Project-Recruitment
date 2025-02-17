@@ -81,12 +81,19 @@ function CompanyDetail() {
                                 <Card style={{ marginTop: "20px" }} title={data.name}>
                                     <p style={{ marginTop: "0px" }}>
                                         <strong>Ngôn ngữ: </strong>
-                                        {Array.isArray(data.tags)
-                                            ? data.tags.map((tag) => <Tag color="geekblue" key={tag}>{tag}</Tag>)
-                                            : data.tags?.split(/[, ]+/).map((tag) => <Tag key={tag}>{tag}</Tag>)
-                                        }
+                                        {(data.tags || []).map((item, index) => (
+                                            <Tag key={index} color="cyan">
+                                                {item}
+                                            </Tag>
+                                        ))}
                                     </p>
-                                    <p><strong>Thành phố: </strong><Tag color="geekblue">{data.city}</Tag></p>
+                                    <p><strong>Thành phố: </strong>
+                                        {(data.city || []).map((item, index) => (
+                                            <Tag color="geekblue" key={index}>
+                                                {item}
+                                            </Tag>
+                                        ))}
+                                    </p>
                                     <p><strong>Lương: </strong>{data.salary}$</p>
                                     <p><strong>Ngày tạo: </strong>{data.updateAt}</p>
                                 </Card>
