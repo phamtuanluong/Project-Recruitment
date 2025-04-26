@@ -75,10 +75,10 @@ function CompanyDetail() {
                         <span style={{ fontSize: "16px" }}> <strong>Email:</strong> {companyDetail.email} </span>
                     </Col>
 
-                    {Array.isArray(jobDetail) && jobDetail.map((data, index) => (
-                        <Col xxl={6} xl={6} key={index}>
+                    {Array.isArray(jobDetail) && jobDetail.filter(data => data.status).map((data, index) => (
+                        <Col span={8} key={index}>
                             <Link to={`/jobdetail/${data.id}`}>
-                                <Card style={{ marginTop: "20px" }} title={data.name}>
+                                <Card style={{ marginTop: "20px", height: "100%" }} title={data.name}>
                                     <p style={{ marginTop: "0px" }}>
                                         <strong>Ngôn ngữ: </strong>
                                         {(data.tags || []).map((item, index) => (
@@ -95,7 +95,7 @@ function CompanyDetail() {
                                         ))}
                                     </p>
                                     <p><strong>Lương: </strong>{data.salary}$</p>
-                                    <p><strong>Ngày tạo: </strong>{data.updateAt}</p>
+                                    <p><strong>Ngày tạo: </strong>{data.createAt}</p>
                                 </Card>
 
                             </Link>

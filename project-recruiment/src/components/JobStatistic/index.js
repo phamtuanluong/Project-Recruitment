@@ -29,7 +29,7 @@ function JobStatistic() {
     return (
         <>
             {data && 
-                <Card title="Job" size="small">
+                <Card title="Job" size="small" style={{height: "100%"}}>
                     <span style={{fontSize: "14px"}}>Số lượng job: <strong> {data.total}</strong></span>
                     <p style={{fontSize: "14px"}}>Job đang bật: <strong> {data.statusTrue}</strong></p>
                     <span style={{fontSize: "14px"}}>Job đang tắt: <strong> {data.statusFalse}</strong></span>

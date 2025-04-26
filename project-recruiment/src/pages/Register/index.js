@@ -1,12 +1,13 @@
-import {Button, Col, Form, Input, Row } from "antd";
+import { Button, Col, Form, Input, message, Row } from "antd";
 import { useNavigate } from "react-router";
 import { checkExits, register } from "../../services/usersService";
 import { useEffect, useState } from "react";
-import {generateToken} from "../../helpers/generateToken";
+import { generateToken } from "../../helpers/generateToken";
 
-function Register(){
+function Register() {
     const navigate = useNavigate();
     const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     const handleFinish = async (e) => {
         const email = e.email;
@@ -15,9 +16,9 @@ function Register(){
         const nameCompany = e.nameCompany;
         const checkExitEmail = await checkExits("email", email);
 
-        if(checkExitEmail.length > 0){
+        if (checkExitEmail.length > 0) {
             alert("Email đã tồn tại!");
-        } else{
+        } else {
             const options = {
                 email: email,
                 password: password,
@@ -26,18 +27,24 @@ function Register(){
                 token: generateToken(),
             }
             const response = await register(options);
-            if(response){
+            if (response) {
+                setLoading(true);
+
+                setTimeout(() => {
+                    setLoading(false);
+                }, 2000);
+                
                 alert("Đăng kí thành công!");
                 navigate("/login");
             }
         }
     }
-    
+
     return (
         <>
-            <Row gutter={[20,20]}>
+            <Row gutter={[20, 20]}>
                 <Col span={24}>
-                    <h1 style={{marginLeft: "200px"}}>Register</h1>
+                    <h1 style={{ marginLeft: "200px" }}>Register</h1>
                 </Col>
                 <Col span={24}>
                     <Form
@@ -53,7 +60,7 @@ function Register(){
                         </Form.Item>
 
                         <Form.Item name="email" label="Email" rules={[{ required: true, message: "Please input your email!" }]}>
-                            <Input  />
+                            <Input />
                         </Form.Item>
 
                         <Form.Item name="phone" label="Số điện thoại">
@@ -65,7 +72,7 @@ function Register(){
                         </Form.Item>
 
                         <Form.Item>
-                            <Button style={{marginTop: "15px", marginLeft: "200px", padding: "20px"}} htmlType="submit" >
+                            <Button loading={loading} style={{ marginTop: "15px", marginLeft: "200px", padding: "20px" }} htmlType="submit" >
                                 Đăng ký
                             </Button>
                         </Form.Item>

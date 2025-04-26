@@ -20,7 +20,7 @@ function InfoCompany() {
     return (
         <>
             {data &&
-                <Card title="Thông tin công ty" size="small">
+                <Card title="Thông tin công ty" size="small" style={{height: "100%"}}>
                     <span><strong>{data.companyName}</strong></span>
                     <p>Email: {data.email}</p>
                     <span>Phone: {data.phone}</span>

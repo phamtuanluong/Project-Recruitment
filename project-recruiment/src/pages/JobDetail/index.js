@@ -5,8 +5,8 @@ import { Button, Card, Col, Form, Input, notification, Row, Select, Tag } from "
 import { getCompany } from "../../services/companyService";
 import { Option } from "antd/es/mentions";
 import TextArea from "antd/es/input/TextArea";
-import {getTimeCurrent} from "../../helpers/getTimeCurrent";
-import {CreateCV} from "../../services/cvSevice";
+import { getTimeCurrent } from "../../helpers/getTimeCurrent";
+import { CreateCV } from "../../services/cvSevice";
 
 function JobDetail() {
     const params = useParams();
@@ -34,14 +34,14 @@ function JobDetail() {
         values.idCompany = DetailJob.idCompany;
         values.createAt = getTimeCurrent();
         const response = await CreateCV(values);
-        
-        if(response){
+
+        if (response) {
             form.resetFields();
             noti.success({
                 message: `Gửi yêu cầu thành công!`,
                 description: "Nhà tuyển dụng sẽ sớm liên hệ với bạn!",
             })
-        } else{
+        } else {
             noti.error({
                 message: `Gửi yêu cầu không thành công`,
                 description: "Hệ thống đang gặp lỗi, bạn vui lòng thử lại sau!",
@@ -151,22 +151,24 @@ function JobDetail() {
                                 <Col xxl={6} xl={6} lg={6} md={8} sm={8}>
                                     <Form.Item name="city" label="Thành phố" rules={rules}>
                                         <Select >
-                                            <Option value={DetailJob.id} label={DetailJob.city}>
-                                                {DetailJob.city}
-                                            </Option>
+                                            {(DetailJob.city || []).map((item, index) => (
+                                                <Option key={index} value={item} label={item}>
+                                                    {item}
+                                                </Option>
+                                            ))}
                                         </Select>
                                     </Form.Item>
                                 </Col>
 
                                 <Col span={24}>
                                     <Form.Item name="description" label="Giới thiệu bản thân" rules={rules}>
-                                        <TextArea rows={6}/>
+                                        <TextArea rows={6} />
                                     </Form.Item>
                                 </Col>
 
                                 <Col span={24}>
                                     <Form.Item name="listProject" label="Danh sách link project" rules={rules}>
-                                        <TextArea rows={6}/>
+                                        <TextArea rows={6} />
                                     </Form.Item>
                                 </Col>
 

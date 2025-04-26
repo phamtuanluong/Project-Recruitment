@@ -1,19 +1,28 @@
-import { Row, Col, Form, Input, Button } from "antd";
+import { Row, Col, Form, Input, Button, message } from "antd";
 import { login } from "../../services/usersService";
 import { useNavigate } from "react-router-dom";
 import { setCookie } from '../../helpers/cookie';
 import { useDispatch } from "react-redux";
 import { checkLogin } from '../../actions/login';
+import { useState } from "react";
 
 function Login() {
     const navigate = useNavigate();
     const dispatch = useDispatch();
-
+    const [loading, setLoading] = useState(false);
+    
     const hanldeFinish = async(e) => {
         const username = e.username;
         const password = e.password;
         const response = await login(username, password);
+
         if(response.length > 0){
+            setLoading(true);
+
+            setTimeout(() => {
+                setLoading(false);
+            }, 2000);
+
             setCookie("id", response[0].id, 1);
             setCookie("fullName", response[0].companyName, 1);
             setCookie("email", response[0].email, 1);
@@ -38,6 +47,7 @@ function Login() {
                         style={{ maxWidth: 600 }}
                         initialValues={{ remember: true }}
                         onFinish={hanldeFinish}
+                        loading={loading}
                     >
                         <Form.Item name="username" label="Tài khoản" rules={[{ required: true, message: "Please input your username!" }]}>
                             <Input />
@@ -48,7 +58,7 @@ function Login() {
                         </Form.Item>
 
                         <Form.Item >
-                            <Button style={{marginTop: "15px", marginLeft: "180px"}} htmlType="submit">
+                            <Button style={{marginTop: "15px", marginLeft: "180px"}} htmlType="submit" loading={loading} >
                                 Đăng nhập
                             </Button>
                         </Form.Item>

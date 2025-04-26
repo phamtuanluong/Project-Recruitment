@@ -1,7 +1,7 @@
 import { get, post } from "../utils/request"
 
 export const login = async (email, password) => {
-    const results = await get(`company?email=${email}&password=${password}`);
+    const results = await get(`company?email=${email}&Password=${password}`);
     return results;
 }
 

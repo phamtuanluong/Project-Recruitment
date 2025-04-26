@@ -15,15 +15,13 @@ function CompanyList() {
         fetchApi();
     }, [])
 
-    console.log(company);
-
     return (
         <>
             <Row gutter={[20, 20]}>
-                {company.map(item => (
-                    <Col xxl={6} xl={6}>
+                {company.filter(company => company.description).map(item => (
+                    <Col span={6} >
                         <Link to={`/companydetail/${item.id}`}>
-                            <Card style={{marginTop: "20px"}} title={item.companyName}>
+                            <Card style={{marginTop: "20px", height: "100%"}} title={item.companyName}>
                                 {item.description}
                             </Card>
                         </Link>

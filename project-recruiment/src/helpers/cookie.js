@@ -13,7 +13,7 @@ export function getCookie(cname) {
     }
     return "";
 }
-// Hết hàm lấy cookie
+// Hết hàm lấy cookie 
 
 // Hàm tạo cookie
 export function setCookie(cname, cvalue, exdays) {

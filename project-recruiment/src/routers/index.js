@@ -22,7 +22,7 @@ import WatchCV from "../pages/WatchCV/index.js";
 export const routers = [
     //Public
     {
-        path: "/",
+        path: "/", 
         element: <LayoutDefault />,
         children: [
             {
@@ -60,7 +60,8 @@ export const routers = [
             {
                 path: "/search",
                 element: <Search />
-            },
+            }
+            
         ]
     },
     //End Public

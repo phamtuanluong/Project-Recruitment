@@ -9,20 +9,6 @@
     
 }
 
-.header__logo{
-    height: 64px;
-    width: 200.36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid #EDF2F9;
-    transition: all 0.2s;
-    background: #001529;
-    color: #fff;
-    font-size: 17px;
-    font-weight: 600;
-}
-
 .header__nav{
     display: flex;
     flex: 1;
@@ -45,6 +31,22 @@
     background: #fff;
     border-radius: 12px;
 }
+
+
+.header__logo{
+    height: 64px;
+    width: 200.36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #EDF2F9;
+    transition: all 0.2s;
+    background: #001529;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
 
 .header__logo--collapsed{
     width: 80.36px;

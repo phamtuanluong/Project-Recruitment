@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { CompanyEdit, getCompany } from "../../services/companyService";
 import { Button, Card, Col, Form, Input, message, Row } from "antd";
 import TextArea from "antd/es/input/TextArea";
+import { getTimeCurrent } from "../../helpers/getTimeCurrent";
 
 function SettingCompany() {
     const idCompany = getCookie("id");
@@ -32,6 +33,7 @@ function SettingCompany() {
     }
 
     const handleFinish = async(values) => {
+        values.updateAt = getTimeCurrent();
         const response = await CompanyEdit(idCompany, values);
         if(response){
             mess.success("Cập nhật thành công");

@@ -29,7 +29,7 @@ function CVStatistic() {
     return (
         <>
             {data &&
-                <Card title="CV" size="small">
+                <Card title="CV" size="small" style={{height: "100%"}}>
                     <span>Số lượng cv: <strong>{data.total }</strong> </span>
                     <p>CV đã đọc: <strong>{data.statusTrue}</strong></p>
                     <span>CV chưa đọc: <strong>{data.statusFalse}</strong></span>

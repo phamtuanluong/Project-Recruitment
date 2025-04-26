@@ -1,5 +1,5 @@
 import { EditOutlined } from "@ant-design/icons";
-import { Button, Col, Form, Input, message, Modal, Row, Select, Tooltip } from "antd";
+import { Button, Col, Form, Input, message, Modal, Row, Select, Switch, Tooltip } from "antd";
 import { useEffect, useState } from "react";
 import { editJob, getDetailJob } from "../../services/jobService";
 import { Option } from "antd/es/mentions";
@@ -109,6 +109,12 @@ function EditJob({ record, onReload }) {
                                 <Col span={24}>
                                     <Form.Item name="description" label="Mô tả" rules={[{required: true}]}>
                                         <TextArea rows={10} />
+                                    </Form.Item>
+                                </Col>
+                                
+                                <Col span={24}>
+                                    <Form.Item name="status" valuePropName="checked">
+                                        <Switch className="mb-10" checkedChildren="Bật" unCheckedChildren="Tắt" />
                                     </Form.Item>
                                 </Col>
 

@@ -9,4 +9,4 @@ function AllRoute (){
         </>
     )
 }
-export default AllRoute;
+export default AllRoute; 

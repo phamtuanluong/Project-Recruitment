@@ -1,7 +1,8 @@
 import { Navigate, Outlet } from "react-router-dom";
+import {useSelector} from "react-redux";
 
 function PrivateRouters(){
-    const isLogin = true;
+    const isLogin = useSelector(state => state.loginReducer);
 
     return (
         <>
@@ -9,4 +10,4 @@ function PrivateRouters(){
         </>
     )
 }
-export default PrivateRouters;
+export default PrivateRouters; 

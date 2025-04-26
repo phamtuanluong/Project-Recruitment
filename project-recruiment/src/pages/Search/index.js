@@ -29,13 +29,13 @@ function Search() {
         <>
             <strong>Kết quả tìm kiếm: </strong>
             {citySearch && <Tag color="blue">{citySearch}</Tag>}
-            {keywordSearch  && <Tag color="blue">{keywordSearch}</Tag>}
+            {keywordSearch && <Tag color="blue">{keywordSearch}</Tag>}
 
             <Row gutter={[20, 20]}>
-                {data.map((data) => (
-                    <Col xxl={6} xl={6}>
+                {(data || []).map((data) => (
+                    <Col span={6}>
                         <Link to={`/jobdetail/${data.id}`}>
-                            <Card style={{ marginTop: "20px" }} title={data.name}>
+                            <Card style={{ marginTop: "20px", height: "100%" }} title={data.name}>
                                 <p style={{ marginTop: "0px" }}>
                                     <strong>Ngôn ngữ: </strong>
                                     {Array.isArray(data.tags)
@@ -43,7 +43,13 @@ function Search() {
                                         : data.tags?.split(/[, ]+/).map((tag) => <Tag key={tag}>{tag}</Tag>)
                                     }
                                 </p>
-                                <p><strong>Thành phố: </strong><Tag color="green">{data.city}</Tag></p>
+                                <p><strong>Thành phố: </strong>
+                                    {(data.city || []).map((item, index) => (
+                                        <Tag color="green" key={index}>
+                                            {item}
+                                        </Tag>
+                                    ))}
+                                </p>
                                 <p><strong>Lương: </strong>{data.salary}$</p>
                                 <p><strong>Ngày tạo: </strong>{data.updateAt}</p>
                             </Card>
